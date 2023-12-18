@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "test-ex-for-recruto"
+version = "0.1.0"
+description = ""
+authors = ["kein <fardz9@bk.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.105.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
